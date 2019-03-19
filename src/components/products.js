@@ -19,9 +19,8 @@ class Products extends React.Component {
           items: [{ sku, quantity: 1 }],
 
           // redirect not guaranteed
-          // FIXME: use hosted url
-          successUrl: 'http://localhost:8000/success',
-          cancelUrl: 'http://localhost:8000/cancel'
+          successUrl: 'https://stripe-store.netlify.com/success',
+          cancelUrl: 'https://stripe-store.netlify.com/cancel'
         })
         .then((result) => {
           if (result.error) {
