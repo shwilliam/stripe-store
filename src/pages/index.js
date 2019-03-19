@@ -2,11 +2,13 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Products from '../components/products'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`home`, `stripe`, `checkout`]} />
-    hello world
+    <h2>Products</h2>
+    <Products />
   </Layout>
 )
 
