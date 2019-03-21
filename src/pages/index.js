@@ -7,7 +7,7 @@ import Products from '../components/products'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`home`, `stripe`, `checkout`]} />
-    <h2>Products</h2>
+    <h2 className="ph1 no-select">Products</h2>
     <Products />
   </Layout>
 )

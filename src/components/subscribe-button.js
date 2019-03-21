@@ -31,15 +31,7 @@ class SubscribeButton extends React.Component {
             })
         }}
       >
-        <button
-          type="submit"
-          style={{
-            backgroundColor: `#fff`,
-            border: `none`,
-            padding: `8px 10px`,
-            cursor: `pointer`
-          }}
-        >
+        <button className="input-reset f4-ns f5 outline bn mt1 pv2-ns pv1 ph3-ns ph2 pointer grow" type="submit">
           Subscribe
         </button>
       </form>
